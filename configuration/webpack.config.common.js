@@ -71,6 +71,10 @@ module.exports = {
                 // exclude: /node_modules/,
                 loader: 'file-loader?limit=1024&name=fonts/[name].[hash].[ext]',
             },
+            // {
+            //     test: /\.obj$/,
+            //     loader: 'file-loader?name=assets/[name].[ext]',
+            // },
         ],
     },
 
