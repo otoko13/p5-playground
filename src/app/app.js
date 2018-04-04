@@ -5,11 +5,10 @@ import p5 from 'p5';
 import '../public/less/app.less';
 
 // MY CODE
-// import basic from './p5/basic';
-// import threeD from './p5/threeD';
-import ksuey from './p5/ksuey';
+// import canvas from './p5/basic';
+// import canvas from './p5/threeD';
+// import canvas from './p5/ksuey';
+import canvas from './p5/ksuey2';
 
 /* eslint-disable */
-// new p5(basic);
-// new p5(threeD);
-new p5(ksuey);
+new p5(canvas);

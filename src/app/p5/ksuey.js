@@ -17,7 +17,7 @@ const sketch = (p5) => {
         p5.noStroke();
         // p5.ellipse(p5.mouseX, p5.mouseY, 100, 100);
         if (p5.mouseIsPressed) {
-            // p5.image(img, p5.mouseX, p5.mouseY);
+            p5.image(img, p5.mouseX, p5.mouseY);
         }
     };
 };
